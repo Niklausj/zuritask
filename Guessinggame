@@ -1,0 +1,25 @@
+# store the number to guess
+my_fav_number = 20
+
+# my_fav_number
+
+# take user input
+user_guess = input("enter user guess: ")
+type_user_guess = type("user_guess")# str
+
+print(type(user_guess))
+
+user_guess = int(user_guess)
+print(type(user_guess))
+
+# < = > < = >
+
+if user_guess == my_fav_number:
+   print("yes! my_fav_number is: " + str(my_fav_number))
+   
+if user_guess < my_fav_number:
+   print("guess is low")
+   
+if user_guess  > my_fav_number:
+   print("guess is high")
+   
